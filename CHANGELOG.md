@@ -19,13 +19,13 @@
 
     [pull/1585]: https://github.com/wasm-bindgen/wasm-pack/pull/1585
 
-  - **Download prebuilt wasm-opt binary on Windows aarch64/arm64 - [pull/0000]**
+  - **Download prebuilt wasm-opt binary on Windows aarch64/arm64 - [pull/1605]**
 
     wasm-pack now downloads prebuilt `wasm-opt` binaries for Windows on AARCH64/ARM64
     (`arm64-windows`) from Binaryen releases instead of failing with an
     unrecognized target error.
 
-    [pull/0000]: https://github.com/wasm-bindgen/wasm-pack/pull/0000
+    [pull/1605]: https://github.com/wasm-bindgen/wasm-pack/pull/1605
 
 ## 🌷 0.15.0
 
