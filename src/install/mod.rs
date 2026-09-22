@@ -184,6 +184,7 @@ pub fn prebuilt_url_for(tool: &Tool, version: &str, arch: &Arch, os: &Os) -> Res
         (Os::MacOS, Arch::AArch64, _) => "aarch64-apple-darwin",
         (Os::Windows, Arch::X86_64, Tool::WasmOpt) => "x86_64-windows",
         (Os::Windows, Arch::X86_64, _) => "x86_64-pc-windows-msvc",
+        (Os::Windows, Arch::AArch64, Tool::WasmOpt) => "arm64-windows",
         _ => bail!("Unrecognized target!"),
     };
     match tool {

@@ -62,6 +62,7 @@ fn can_download_prebuilt_cargo_generate() {
     all(target_os = "macos", target_arch = "x86_64"),
     all(target_os = "macos", target_arch = "aarch64"),
     all(windows, target_arch = "x86_64"),
+    all(windows, target_arch = "aarch64"),
 ))]
 fn can_download_prebuilt_wasm_opt() {
     let dir = tempfile::TempDir::new().unwrap();
